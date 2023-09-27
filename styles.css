@@ -44,6 +44,7 @@
 }
 label{
     font-size: 20px;
+    color: black;
 }
 input{
     display: block;
@@ -73,6 +74,9 @@ input::placeholder{
 
 .input-control.error input {
     border-color: #ff3860;
+}
+.error{
+    color: red;
 }
 
 button{
